@@ -209,4 +209,4 @@ wt + het
     ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
     ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
-![](GSE142208_lineplots_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](unnamed-chunk-8-1.png)<!-- -->
