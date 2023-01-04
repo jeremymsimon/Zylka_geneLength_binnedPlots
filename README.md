@@ -5,15 +5,13 @@ showing how gene expression changes as a function of gene length.
 
 Here we will use two datasets:
 
-First we will use data from [Mabb et al 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0156439) 
+1. First we will use data from [Mabb et al 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0156439) 
 to demonstrate how this new code reproduces previously published Figure 2B (the red line comparing WT Topotecan vs WT Vehicle). 
+    * These results can be viewed [here](https://github.com/jeremymsimon/Zylka_geneLength_binnedPlots/blob/main/GSE79951_lineplots.md)
 
----> These results can be viewed [here](https://github.com/jeremymsimon/Zylka_geneLength_binnedPlots/blob/main/GSE79951_lineplots.md)
-
-Then we will use data from [Jimenez et al 2020](https://molecularautism.biomedcentral.com/articles/10.1186/s13229-020-00369-8) 
+2. Then we will use data from [Jimenez et al 2020](https://molecularautism.biomedcentral.com/articles/10.1186/s13229-020-00369-8) 
 to explore whether gene expression changes coincide with the age of the animal and whether those effects are exacerbated in Chd8 heterozygotes.
-
----> These results can be viewed [here](https://github.com/jeremymsimon/Zylka_geneLength_binnedPlots/blob/main/GSE142208_lineplots.md)
+    * These results can be viewed [here](https://github.com/jeremymsimon/Zylka_geneLength_binnedPlots/blob/main/GSE142208_lineplots.md)
 
 
 For each dataset, we retrieve the data directly from GEO as published, gene lengths as annotated by [GENCODE](https://www.gencodegenes.org/mouse),
