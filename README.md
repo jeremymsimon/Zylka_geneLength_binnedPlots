@@ -19,3 +19,5 @@ to explore whether gene expression changes coincide with the age of the animal a
 For each dataset, we retrieve the data directly from GEO as published, gene lengths as annotated by [GENCODE](https://www.gencodegenes.org/mouse),
 and bin genes into groups of 200 based on their length. We aggregate biological replicate expression values by taking their mean per gene and per condition.
 Then within each bin, we compute and plot the mean log2-fold-change in expression relative to the mean gene length, plotted on a log10 scale. 
+
+Note that in the future, in any context where we've already done a differential expression test with DESeq2, we should plug in the shrunken log2-fold-changes from that test rather than computing them by hand as we did here.
