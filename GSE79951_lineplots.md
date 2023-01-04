@@ -154,4 +154,4 @@ inner_join(GSE79951.summarized.inter,lengths.inter,by="Gene") %>%
 
     ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
-![](GSE79951_lineplots_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](GSE79951_figure.png)<!-- -->
